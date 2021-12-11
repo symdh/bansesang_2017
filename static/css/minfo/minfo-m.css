@@ -1,0 +1,21 @@
+#mInfo_main {
+	width:1080px;
+} 
+#mInfo_wapper {
+	width:830px;
+}
+#mInfo_Dstl_SplAd {
+	width:350px;
+}
+#mInfo_Dstl_Srch {
+	width:480px;
+}
+#mInfo_DH1up-lft, #mInfo_DH1dn-lft  {
+	width:410px;
+}
+#mInfo_DH1up-rt, #mInfo_DH1dn-rt   {
+	width:410px;
+}
+.mInfo-Dstl-RdTtl  {
+	width:290px;
+}

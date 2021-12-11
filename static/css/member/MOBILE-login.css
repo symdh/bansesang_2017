@@ -1,0 +1,64 @@
+#member_L_main {
+	width:100%;
+	padding-top:100px;
+}
+
+#border_L_wrapper{
+	border-top:10px;
+	height: 250px;
+	margin:auto;
+	/*border:1px solid #828282;*/
+} 
+
+#member_L_for_vertical_center {
+	margin-bottom:-90px;
+	/*border:2px solid blue;*/ 
+}
+
+#member_L_wrapper{
+	max-width: 320px;
+	height:180px;
+	margin:auto;
+	/*border:2px solid red;*/
+}
+
+
+#member_L_wrapper table {
+	/*border:1px solid red;*/
+}
+
+#member_L_wrapper table td {
+	
+	width:100px;
+	height:30px;
+	/*border:1px solid blue;*/
+}
+
+#member_L_wrapper a {
+	text-align:center;
+	text-decoration:none;
+	color:black;
+   vertical-align: middle;
+}
+
+#member_L_wrapper .free_C_div_style_1 {
+	width:80%;
+	height:25px;
+	line-height:25px;
+	margin:auto;
+	border:1px solid #828282;
+	border-radius:5px;
+}
+
+#member_L_watch_join {
+	border:1px solid blue;
+}
+
+#member_L_type_submit_1 {
+	width:100%;
+	height:100%;
+	font-size:14px;
+	color:white;
+	background-color:#AA6C00;
+	border-radius:10%;
+}

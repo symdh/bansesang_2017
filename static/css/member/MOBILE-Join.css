@@ -1,0 +1,110 @@
+
+#member_J_main{
+	font-family:'맑은 고딕','serif';
+	width:100%;
+	margin:auto;
+	padding-top:50px;
+}
+
+#member_J_wrapper {
+	width:320px;
+	margin:auto;
+}
+
+#member_J_wrapper table {
+	border-spacing:10px;
+}
+
+#member_J_wrapper td input{
+	padding-left:12px;
+
+}
+#member_J_wrapper input {
+	height:25px;
+	width:100%;
+}
+/*-----------------기본설정 완료-------------------*/
+#member_J_shape {
+
+}
+#member_J_shape tr {
+	height:80px;
+
+}
+#member_J_shape tr td:first-child{
+	width:150px;
+	height:80px;
+	text-align: center;
+	display: none;
+}
+#member_J_shape tr td:last-child{
+	width:300px;
+	max-width: 300px;
+	height:80px;
+	padding-left: 10px;
+}
+#member_J_shape tr td:last-child input {
+	height:35px;
+}
+
+#member_J_type_submit_1{
+	width:180px;
+	height:50px; 
+}
+
+#member_J_type_submit_1 input {
+	width:80px;
+	height:35px;
+	font-size:16px;
+	color:#fff;
+}
+
+#member_J_style_submit_blue {
+	background-color:#337ab7;
+	border-color:#2e6da4;
+}
+
+#member_J_style_submit_red {
+	background-color:#d9534f;
+	border-color:#d43f3a;
+}
+
+/*아래는 수정하려면 오래걸림*/
+/*이메일 검사 관련됨*/
+#css_email_cf_true{
+	color:blue;
+	font-size:12px;
+}
+
+#css_email_cf_false{
+	color:red;
+	font-size:12px;
+}
+
+#css_nickname_cf_true{
+	color:blue;
+	font-size:12px;
+}
+
+#css_nickname_cf_false {
+	color:red;
+	font-size:12px;
+}
+
+#css_passwd_cf_true{
+	color:blue;
+	font-size:12px;
+}
+
+#css_passwd_cf_false {
+	color:red;
+	font-size:12px;
+}
+
+#member_J_wrapper .free_C_div_for_gender {
+	/*border:1px solid blue;*/
+	vertical-align:center;
+	float:left;
+	padding-top: 5px;
+	margin-right:50px;
+}

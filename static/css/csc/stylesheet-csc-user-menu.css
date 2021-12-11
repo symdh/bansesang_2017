@@ -1,0 +1,16 @@
+#csc_UMn_main {
+	width:450px;
+	margin:auto;
+	padding: 10px 0px 10px 0px;
+	height:40px;
+}
+
+#csc_UMn_wrapper {  }
+
+#csc_UMn_div_style_1 button {
+	width:100px;
+	height:30px;
+	font-size:14px;
+	float:left;
+	margin-right:10px;
+}

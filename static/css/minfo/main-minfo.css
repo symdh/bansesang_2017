@@ -1,0 +1,90 @@
+#mInfo_main {
+	width:980px;
+	max-width:1280px;
+	min-width:980px;
+	margin:auto;
+}
+
+#mInfo_wapper {
+	width:730px;
+	display: inline-block;
+}
+
+#mInfo_Dstl_SplSrch {
+	height: 150px;
+}
+#mInfo_Dstl_SplAd {
+	width:300px;
+	line-height: 150px;
+	text-align: center;
+	font-size: 30px;
+	float:left;
+	display: inline-block;
+}
+#mInfo_Dstl_Srch {
+	width:430px;
+	line-height: 150px;
+}
+
+#mInfo_SaH1-up {
+	height:220px;
+	
+}
+
+#mInfo_SaH1-dn {
+	height:220px;
+}
+
+#mInfo_DH1up-lft {
+	margin-right:10px;
+	width:360px;
+	float:left;
+	display: inline-block;
+}
+#mInfo_DH1up-rt {
+	width:360px;
+	display: inline-block;
+}
+
+#mInfo_DH1dn-lft {
+	margin-right:10px;
+	width:360px;
+	float:left;
+	display: inline-block;
+	
+}
+#mInfo_DH1dn-rt {
+	width:360px;
+	display: inline-block;
+}
+
+.mInfo-Dstl-SbTtl {
+	padding-left:10px;
+	font-size:14px;
+	font-weight: bold;
+	height:30px;
+	line-height: 30px;
+	/*font-weight: bold;*/
+	padding-bottom: 5px;
+	background-color: #ddd;
+	margin-bottom: 10px;
+}
+
+.mInfo-Dstl-RdTtl {
+	width:240px;
+	float:left;
+	
+}
+
+.mInfo-Dstl-RdWriter {
+	width:120px;
+	float:left;
+	text-align: center;
+	
+}
+
+.MInfo-Dstl-PgLnk {
+	width:150px;
+	height:30px;
+	margin:auto;
+}

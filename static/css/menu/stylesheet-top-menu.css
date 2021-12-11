@@ -1,0 +1,187 @@
+
+div[id$="main"] {
+   padding-top:51px;
+}
+
+#topMnu_main {
+	padding:0px;
+	margin:0px;
+	width:100%;
+	position:fixed;
+	background-color: #AA6C00; 
+	z-index:10000;
+}
+
+#topMnu_wrapper {
+	width:980px;
+	height:45px;
+	margin:auto;
+	font-size: 20px; 
+	text-align: center;
+	max-width:1280px;
+	min-width: 980px;
+
+}
+
+#topMnu_DRsv_1 {
+		
+}
+
+#topMnu_Dappt_1 {
+
+}
+
+/*컨테이너 div 설정 부분*/
+#topMnu_Dstl_LnkHome {
+	width:180px;
+	height:45px;
+	float:left;
+	
+	/*그림시 속성*/
+	background-image: url('/static/img/home.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+	border-right:1px solid #EBF7FF;
+
+	max-width: 180px;
+	max-height: 45px;
+
+
+	/*text시 속성 */
+/*	font-size: 30px;
+	color:#fff;
+	line-height:45px;
+	border-right:1px solid #EBF7FF;
+	max-width: 180px;
+	max-height: 45px;*/
+}
+
+#topMnu_Dstl_Mnu {
+	width:300px;
+	height:45px;
+	line-height: 45px;
+	float:left;
+	font-size:20px;
+	/*font-weight:bold;*/
+}
+
+
+#topMnu_Dstl_UsrMnu {
+	width:300px;
+	line-height: 45px;
+	/*300까지 늘어나도록 만들기*/
+	float:left;
+	font-size:17px;
+}
+
+#topMnu_Dstl_UsrMnu a {
+	font-size: 12px;
+	color:#fff;
+}
+
+#topMnu_Dstl_UsrMnu .free_C_div_style_1 {
+	width:80px;
+	float:left;
+	color:#fff;
+	/*margin-left:10px;*/
+}
+
+#topMnu_Dstl_Evt-1 {
+	width:200px;
+	height:45px;
+	line-height: 45px;
+	float:left;
+}
+
+#topMnu_Dstl_Evt-2 {
+	width:200px;
+	height:45px;
+	line-height: 45px;
+	float:left;
+	display:none;
+}
+
+
+/*메뉴 설정부분*/
+#topMnu_Dstl_Mnu a {
+	color:#fff;
+}
+#topMnu_Dstl_Mnu a:visited {
+	color:#fff;
+}
+#topMnu_Dstl_Mnu ul ul {
+	display: none;
+}
+
+#topMnu_Dstl_Mnu ul li:hover > ul {
+	display: block;
+}
+
+#topMnu_Dstl_Mnu ul {
+	margin:auto;
+	padding: 0px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+#topMnu_Dstl_Mnu ul:after {
+	clear: both; 
+	display: block;
+}
+
+#topMnu_Dstl_Mnu ul>li {
+	/*width이 변하면 유동적으로 변환됨*/
+	height:100%;
+	width:100px;
+	float: left;
+	padding: 0px;
+
+	border-right:1px solid #z;
+}
+
+#topMnu_Dstl_Mnu ul>li a {
+	display: block; 
+	padding: 0px;
+	color:#fff;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#topMnu_Dstl_Mnu ul>li:hover {
+	/*
+	background: #38ADC1;
+	*/
+}
+			
+#topMnu_Dstl_Mnu ul>li:hover a {
+	color:#fff;
+}
+		
+#topMnu_Dstl_Mnu ul ul {
+	font-size:16px;
+	width:200px;
+	background: #A47535; 
+	padding: 0;
+	position: absolute; 
+	top: 100%;
+	margin-left: -50px;
+}
+
+#topMnu_Dstl_Mnu ul ul li {
+	width:100%;
+	float: none; 
+	border-top: 1px solid #fff;
+	position: relative;
+	border-right:0px solid black;
+}
+
+#topMnu_Dstl_Mnu ul ul li a {
+	padding: 3px 10px;
+	color:#fff;
+	font-size: 12px;
+}	
+
+#topMnu_Dstl_Mnu ul ul li a:hover {
+	background: #B3AEFF;
+}

@@ -1,0 +1,38 @@
+
+
+#brdWrt_main {
+	padding-top: 50px;
+}
+
+#brdWrt_wapper {
+
+}
+#brdWrt_Dplec_1 {
+
+}
+
+#brdWrt_Dplec_WrtTtl {
+	width:100%; 
+	height:35px;
+	font-size:15px;
+} 
+
+#brdWrt_Dstl_Blk {
+	
+	margin:auto;
+	width:130px;
+	height:250px;
+	/*border:1px solid red;*/
+}
+
+#brdWrt_Dstl_SltTp { /*csc 관련*/
+	width:100px;
+	height:30px;
+	font-size:15px;
+} 
+#brdWrt_Dstl_SltTp-2 { /*csc 관련*/
+	width:100px;
+	height:30px;
+	font-size:15px;
+} 
+

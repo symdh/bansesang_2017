@@ -1,0 +1,1 @@
+Trex.module("add drop-down menu button if extra buttons exist.",function(t,e,n,o){o.observeJob(Trex.Ev.__IFRAME_LOAD_COMPLETE,function(){var n=$tom.collectAll(t.getWrapper(),"li.tx-list-extra div.tx-extra");0!=n.length&&n.each(function(t){var n=$tom.next(t,".tx-extra-menu");n&&e.makeWidget(new Trex.Button({el:t,sync:_FALSE,status:_TRUE}),new Trex.Menu({el:n}),function(){})})})});

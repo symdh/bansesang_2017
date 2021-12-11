@@ -1,0 +1,249 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+.placeholder { color: #aaa; } /*placeholder.js 관련*/
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+   		box-sizing: border-box;
+   
+   position:relative;	
+
+	color:black;
+	font-size:12px;
+	font-family: 'Noto Sans KR', '돋움체',sans-serif;
+}
+div  {
+	width:inherit;
+	/*position:relative;*/
+}
+table,th,td {
+	border-collapse:collapse;
+	table-layout:fixed;
+	border-spacing:0px;
+	
+	overflow:hidden; 
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+}
+a {
+	text-decoration: none;
+	/*color:black;*/
+}
+a:visited {
+	text-decoration: none;
+	/*color:black;*/
+	/*color:#A6A6A6;*/
+}
+a:visited span{
+	text-decoration: none;
+	/*color:black;*/
+	/*color:#A6A6A6;*/
+}
+ul {
+	list-style: none;
+	padding: 0px;
+	margin : 0px;
+}
+body {
+	margin:0px;
+}
+
+.C_th_H30 {
+	font-size:13px;
+	height:30px;
+	border-bottom:1px solid gray;
+}
+.C_td-H20 {
+	padding-bottom: 5px;
+	height:20px;
+	border-bottom:1px solid #CACACA;
+}
+.C_tr-H25 {
+	height:25px;
+}
+.C_tr_H30 {
+	height:30px;
+	border-bottom:1px solid #CACACA;
+}
+.C_btn-H30 {
+	width:80px; 
+	height:30px; 
+	float:left;
+}
+.C_btn-H40 {
+	height:40px;
+	font-size:15px;
+	/*form 을 넣으니 이 옵션이 사라짐*/
+	float:left;
+}
+.C_btn-H50 {
+	width:150px;
+	height:50px;
+	font-size:20px;
+}
+.C_btn-H80 {
+	width:80px;
+	height:80px;
+	font-size:20px;
+}
+.C_btn-W100 {
+	width:100px;
+	font-size:15px;
+}
+.C_img_Mn_GlrRd {
+	width: auto; 
+	height: auto;
+   max-width: 220px;
+   max-height: 165px;
+}
+
+.C_img_Rd_user {
+	width: auto; 
+	height: auto;
+   max-width: 180px;
+   max-height: 135px;
+}
+.C_img_Cm_user {
+	width: auto; 
+	height: auto;
+   max-width: 80px;
+   max-height: 60px;
+}
+.C_img_GlrThn-lft {
+	width: auto; 
+	height: auto;
+	width : 172px;
+	height: 129px;
+	margin-right:6px;
+	float:left;
+	/*border-right:6px solid #D9E5FF;*/
+}			
+.C_img_GlrThn-rt {
+	width: auto; 
+	height: auto;
+	width : 172px;
+	height: 129px;
+}		
+
+.C_img_Ttl_notice {
+	float:left;
+	margin-right:5px;
+}
+
+/*설계상 width 만 바꿈*/
+.C_txtr-W500 {
+	width:495px;
+	resize: none;
+	height:80px;
+	padding-left:10px;
+	overflow:hidden;
+	font-size:12px;
+	float:left;
+}
+.C_txtr-W280 {
+	width:280px;
+	resize: none;
+	height:80px;
+	padding-left:10px;
+	overflow:hidden;
+	font-size:12px;
+	float:left;
+}
+
+.C_for_center{
+	margin:auto;
+}
+
+.C_for_vertical_center {
+	height:50%;
+	/*아래 수직을 원하는 객체의 높이 50%를 줘야함
+	# _for_vertical_center {
+	margin-bottom:- px;
+	border:2px solid blue; } */ 
+}
+
+.C_float_left {
+	float:left;
+	display:inline-block;
+}
+.C_clear_both {
+	clear:both;
+}
+
+.C_style_input_1 {	
+	font-size:12px;
+	font-family:'굴림';
+}
+.C_style_input_passwd_hide {	
+	display : none;
+	float:left;
+}
+.C_style_input_passwd_show {
+	display: inline-block;
+	width:100px;
+}
+.C_style_input_nickname {
+	width:150px;
+}
+
+.C_style_checkbox_1 {
+	width:30px;
+	height:30px;
+}
+
+.C_style_for_color_1 {
+	color:red;
+}
+.C_style_for_color_1 a {
+	color:red;
+}
+.C_style_for_color_2 {
+	color:gray;
+	opacity:0.4;
+}
+.C_style_for_color_3 {
+	color:blue;
+}
+
+
+.C_style_for_font_bold {
+	font-weight: bold;
+}
+
+.C_height_full {
+	height:100%;
+}
+
+.C_height_full input {
+	height:100%;
+	font-size:12px;
+}
+
+.C_width_full {
+	width:100%;
+}
+
+.C_width_full input{
+	width:100%;
+}
+
+
+.free_C_div_style_1 { 
+	/* 삭제 필요*/
+}
+
+.free_C_div_style_1_1 { 
+	/* 삭제 필요*/
+ }
+
+.free_C_div_for_contents {
+ } 
+
+.free_C_div_for_purpose {
+	
+}
+
+
+/*에디터 관련*/
+.txc-image {
+	max-width: 100%;
+}

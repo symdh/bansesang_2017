@@ -1,0 +1,68 @@
+#pgUi_main {
+	width:100%;
+}
+#pgUi_wrapper {
+
+}
+
+#pgUi_Dstl_SbMnu {
+	/*float:left;*/
+	width:100%;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.pgUi-Dstl-SbMnu {
+	width:33%;
+	height:80px;
+	float:left;
+	text-align: center;
+	line-height:80px;
+}
+
+
+#pgUi_Dstl_Ad-1 {
+	width:100%;
+	height:150px;
+	
+}
+
+#pgUi_Dstl_body {
+	float:left;
+	font-size:20px;
+	font-weight:bold;
+	display:inline-block;
+	padding-bottom: 100px;
+}
+
+#pgUi_Dstl_SbTtl {
+	width:300px; 
+	height:50px; 
+	line-height: 50px; 
+	padding-left: 20px;
+}
+#pgUi_btn {
+	width:100px;
+	margin:auto;
+	height:20px;
+}
+
+#pgUi_TBstl_info {
+	width:320px;
+	margin:auto;
+}
+#pgUi_TBstl_info tr td:first-child{
+	width:100px;
+	height:70px;
+	background-color: #f3f3f3;
+	border-bottom: 1px solid gray;
+	text-align: center;
+	font-weight:bold;
+}
+#pgUi_TBstl_info tr td:last-child{
+	width:220px;
+	height:70px;
+	padding-left: 5px;
+	border-bottom: 1px solid gray;
+	font-weight:normal;
+}

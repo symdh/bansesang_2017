@@ -1,0 +1,107 @@
+/*이미지 리스트 부분*/
+.brdLs-IMGstl {
+	width: 49%;
+}
+.brdLs-IMGstl-off {
+	display: initial;
+}
+.brdLst-TDstl-GlrClkNum {
+	display: initial;
+}
+#brdRd_stlCm_UsrDt {
+	display: none;
+	display: inline-block;
+}
+.brdRd-Dstl-CmQaa, .brdRd-Dstl-ACmQaa  {
+	padding-left:90px;
+}
+
+
+
+
+/*pc속성인데 모바일 설계상 바꿈*/
+.C_style_input_passwd_show{
+	width:150px;
+}
+.C_img_Rd_user {
+	max-height: 95px;
+}
+.C_btn-H80 {
+	height: 60px;
+}
+.C_txtr-W500 {
+	width : -webkit-calc(100% - 80px); 
+	width : -moz-calc(100% - 80px);
+	width : calc(100% - 80px); 
+	/*height:60px;*/
+	padding-left:0px;
+}
+
+/*#brdLst_main {
+	width:1180px;
+} 
+#brdLst_Dplec_MnLst {
+	width:930px;
+} 
+
+.brdLst-TDstl-RdTtl {
+	width:660px;
+	max-width:660px;
+} 
+
+#brdLst_Dplec_GlrMnLst {
+	width: 930px;
+} 
+
+.brdLst-LIstl-GlrSlt-off, #brdLst_LIstl_GlrSlt-on {
+	width:455px;
+	height:212.5px;
+	margin-bottom: 25px;
+} 
+
+.C_img_GlrThn-rt, .C_img_GlrThn-lft {
+	width:222px;
+	height:166.5px;
+}
+
+.brdLst-Dstl-GlrPt {
+	height:166.5px;
+}*/
+
+/*/////////////////////////*/
+/*/////////////////////////*/
+/*/////////////////////////*/
+
+/*#brdRd_main {
+	width:1180px;
+}
+
+#brdRd_wrapper {
+	width:930px;
+}
+
+#brdRd_SpRdTtl-lft {
+	width:800px;
+	padding-left:35px;
+}
+#brdRd_SpRdTtl-rt {
+	width:130px;
+	padding-right: 30px;
+}
+#brdRd_Dstl_RdCt  {
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.brdRd-Dstl-CmInfo, .brdRd-Dstl-CmQaa, #brdRd_Dstl_CmInfo, #brdRd_Dstl_CmQaa {
+	width:845px;
+}
+
+
+.brdRd-Dstl-ACmInfo, .brdRd-Dstl-ACmQaa {
+	width:795px;
+}
+
+.C_txtr-W500 {
+	width:695px;
+}*/

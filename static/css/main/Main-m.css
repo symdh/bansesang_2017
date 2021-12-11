@@ -1,0 +1,44 @@
+#pgMn_wapper {
+	width:1080px;
+}
+
+#pgMn_DRsv_BstTn, #pgMn_Dstl_BstRd, #pgMn_Dstl_PtRd, #pgMn_DRsv_SplSrch {
+	width:550px;
+
+}
+
+#pgMn_DRsv_IssTn, #pgMn_Dstl_freeRd,#pgMn_Dstl_QaaRd,#pgMn_Dstl_Ad-2, .pgMn-Dstl-MdcInfo {
+	width:530px;
+}
+
+.pgMn-TDstl-QaaRdTtl {
+	width:480px;
+	max-width: 480px;
+}
+
+.phMn-TDstl-freeTtl {
+	width:410px;
+	max-width:410px;
+}
+
+#pgMn_Dstl_RdInfo-2 {
+	height:489.5px;
+}
+
+.pgMn-LIstl-PtRd {
+	width:245px;
+}
+
+.C_img_Mn_GlrRd {
+	max-width:245px;
+	max-height:183.75px;
+
+	/*ie8은 제한적 임*/
+	width:245px;
+	height:183.75px;
+}
+
+
+.pgMn-SbTtl-style {
+	width: 530px;
+}

@@ -1,0 +1,91 @@
+#csc_Mn_main {
+	width:610px;
+	margin:left;
+	clear:both;
+	padding-top:0px;
+}
+#brdWrt_main {
+	/*쓰기모드 padding값 제거 위함*/
+	padding-top:0px;
+}
+	
+/*전제 width 합계 860px로 줄넘김 방지를 위해 40px 뺏음*/
+
+#csc_Mn_wrapper {
+	margin: left;
+	font-size: 20PX; 
+	text-align: center;
+	background-color: #38ADC1; 
+	z-index:10000;
+	/*900미만에선 없앨것*/
+
+}
+
+#csc_Mn_div_style_1 {
+	margin:auto;
+
+}
+
+/*컨테이너 div 설정 부분*/
+#csc_Mn_div_style_for_menu {
+	float:left;
+	width:610px;
+	font-size:20px;
+	font-weight:bold;
+	/*border-bottom:1px solid gray;*/
+}
+
+
+/*메뉴 설정부분*/
+#csc_Mn_div_style_for_menu ul {
+	margin:left;
+	padding: 0px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+
+}
+
+#csc_Mn_div_style_for_menu ul:after {
+	clear: both; 
+	display: block;
+}
+
+#csc_Mn_div_style_for_menu ul li {
+	/*width이 변하면 유동적으로 변환됨*/
+	height:100%;
+	width:100px;
+	float: left;
+	padding: 0px;
+	border-bottom:1px solid gray;
+	border-right:1px solid gray;
+	border-top:1px solid gray;
+}
+
+#csc_Mn_div_style_for_menu ul li a {
+	display: block; 
+	padding: 0px;
+	color: #757575; 
+	text-decoration: none;
+}
+#csc_Mn_div_style_for_menu ul li:hover {
+	background: #38ADC1;
+	background: linear-gradient(top, #38ADC1 0%, #5f6975 40%);
+	background: -moz-linear-gradient(top, #38ADC1 0%, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #38ADC1 0%,#5f6975 40%);
+}	
+#csc_Mn_div_style_for_menu ul li:hover a {
+	color: #fff;
+}
+		
+
+.csc_Mn_appoint_selected_menu {
+	background: #38adc1;
+	background: linear-gradient(top, #38ADC1 0%, #5f6975 40%);
+	background: -moz-linear-gradient(top, #38ADC1 0%, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #38ADC1 0%,#5f6975 40%);
+}
+.csc_Mn_appoint_selected_menu span{
+ 	color:#fff;
+}
+

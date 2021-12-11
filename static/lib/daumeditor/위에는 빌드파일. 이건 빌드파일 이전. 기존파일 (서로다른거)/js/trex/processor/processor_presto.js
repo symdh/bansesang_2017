@@ -1,0 +1,1 @@
+Trex.I.Processor.Presto={stuffNode:function(r){return $tom.stuff(r,this.newNode("br"))},controlEnterByParagraph:function(r){throw $propagate}};

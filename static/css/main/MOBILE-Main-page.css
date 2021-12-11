@@ -1,0 +1,223 @@
+a:visited {
+	color:black;
+}
+
+#pgMn_main {
+	width:100%;
+	margin:auto;
+}
+#pgMn_wapper {
+
+}
+
+/*첫번째 구역*/
+#pgMn_Dstl_Tn {
+	height:250px;
+}
+#pgMn_DRsv_Tn {
+	
+}
+
+#pgMn_DRsv_BstTn {
+	/*width:500px;*/
+	height:inherit;
+	float:left;
+	/*padding-right:20px;*/
+}
+#pgMn_DRsv_IssTn {
+	/*width:480px;*/
+	height:inherit;
+	float:left;
+}
+
+
+/*광고 구역*/
+#pgMn_Dstl_Ad-1 {
+	/*height:120px;*/
+}
+
+#pgMn_DRsv_Ad-1{ height:inherit; }
+
+
+/*다섯번째 구역*/
+#pgMn_Dstl_Srch {
+	
+}
+#pgMn_DRsv_Srch { 
+   width:100%;
+	height:inherit; 
+}
+#pgMn_DRsv_SplSrch {
+	/*width:500px;*/
+   width:100%;
+	height:inherit;
+	float:left;
+	/*padding-right:20px;*/
+}
+#pgMn_SpSrch {
+	margin:auto;
+	width:300px;
+	padding-top:30px ;
+	padding-bottom: 40px;
+}
+#pgMn_Dstl_Ad-2 {
+	/*width:480px;*/
+	height:inherit;
+	float:left;
+}
+/*세번째 구역*/
+/*#pgMn_Dstl_RdInfo-1 {   }
+#pgMn_DRsv_RdInfo-1 { 
+	width:100%;
+	height:inherit; 
+}
+#pgMn_Dstl_BstRd {
+	width:100%;
+	height:inherit;
+	float:left;
+	//padding-right:20px;
+}*/
+
+
+
+#pgMn_Dstl_freeRd {
+	width:100%;
+	height:inherit;
+	float:left;
+	min-height: 140px;
+	/*border: 1px solid blue;*/
+}
+.phMn-TDstl-freeTtl {
+	text-align: left;
+	/*width:360px;*/
+	max-width:360px;
+	padding:5px 0px 5px 0px;
+	border-bottom:1px solid #cacccc;
+}
+
+.phMn-TDstl-freeNm {
+	/*width:120px;*/
+	font-size:13px;
+	text-align: center;
+	border-bottom:1px solid #cacccc;
+}
+
+/*네번째 구역*/
+#pgMn_Dstl_RdInfo-2 {    }
+#pgMn_DRsv_RdInfo-2 { 
+	height:inherit; 
+	width:100%;
+}
+	/*photo 부분*/
+#pgMn_Dstl_PtRd {
+	width:100%;
+	height:inherit;
+	float:left;
+	/*padding-right:20px;*/
+	display:inline-block;
+	/*border: 1px solid red;*/
+}
+#pgMn_ULstl_PtRd { height:inherit; }
+.pgMn-LIstl-PtRd {
+	width:45%;
+	/*width:220px;*/
+	float:left;
+	display:inline-block;
+	margin: 0px 5px 15px 5px;
+	font-size:14px;
+	overflow:hidden; 
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+	border:1px solid #cacccc;
+
+	/*ie8 전용*/
+	height:192px\9;
+	text-align:center\9;
+}
+
+
+.pgMn-Dstl-PtRdTtl {
+	height:22px;
+	line-height: 22px;
+}
+
+
+#pgMn_Dstl_QaaRd {
+	width:100%;
+	height:100%;
+	float:left;
+	/*border: 1px solid blue;*/
+}
+
+.pgMn-TDstl-answer {
+	width:50px;
+	font-size:12px;
+	text-align: center;
+	border-right:1px solid #cacccc;
+	border-bottom:1px solid #cacccc;
+
+}
+
+.pgMn-TDstl-QaaRdTtl {
+	width:430px;
+	max-width: 430px;
+	padding : 5px 5px 5px 10px;
+	border-bottom:1px solid #cacccc;
+
+}
+
+/*여섯번째(마지막) 구역*/
+#pgMn_Dstl_MdcInfo {
+	height:600px;
+}
+#pgMn_DRsv_MdcInfo {	
+	height:inherit; 
+	width:100%;
+}
+.pgMn-Dstl-MdcInfo {
+	/*width:480px;*/
+	height:100%;
+	float:left;
+	padding-left:10px;
+	/*padding-right:10px;*/
+}
+
+
+
+.pgMn-SbTtl-style {
+	width:100%;
+	line-height: 35px;
+	font-size:14px;
+	padding-left:10px;
+	height:35px;`
+	width:480px;
+	background-color: #f3f3f3;
+	font-weight: bold;
+}
+.pgMn-Dstl-brdLnk {
+	width:100px;
+	font-size:10px;
+	padding-left:9px;
+	height:35px;
+	max-height:35px;
+	/*line-height: 35px;*/
+	background: url("/static/img/appear-inside.jpg") no-repeat 50px;
+	color:gray;
+	font-weight: normal;
+	display:inline-block;
+}
+.pgMn-Sltstl-Srch {
+	width:60px; 		
+	height:30px; 
+	font-size:12px;
+}
+#pgMn_Bstl_Srch {
+	width:50px; 
+	height:30px; 
+	font-size:15px;
+}
+#pgMn_Istl_Srch {
+	width:180px; 
+	height:30px; 
+	font-size:15px;
+}

@@ -1,0 +1,124 @@
+
+#mngCapRd_main {
+	width:600px;
+	/*border:1px solid red;*/
+}
+#mngCapRd_wrapper {
+
+}
+#mngCapRd_shape_for_content {
+	width:100%;
+	/*border:1px solid red;*/
+}
+#mngCapRd_shape_for_answer{
+
+}
+
+
+#mngCapRd_appoint_info_content {
+
+}
+#mngCapRd_appoint_title {
+	margin-top:5px;
+	font-size:18px;
+	width:100%;
+	border-top:1px solid gray;
+	overflow:hidden; 
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+}
+#mngCapRd_appoint_nickname {
+	margin-top:5px;
+	font-size:14px;
+	width:200px;
+	float:left;
+	border-right:1px solid gray;
+	/*border-bottom:1px solid gray;*/
+}
+#mngCapRd_appoint_date {
+	margin-top:5px;
+	font-size:14px;
+	width:100px;
+	float:left;
+	text-align: center;
+/*	border-left:1px solid gray;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;*/
+}
+#mngCapRd_appoint_content {
+	min-width:300px;
+	max-width:600px;
+	clear:both;
+	padding-top:5px;
+	border-bottom:1px solid gray;
+}
+#mngCapRd_shape_for_answer {
+	width:100%;
+	/*border:1px solid red;*/
+}
+#mngCapRd_shape_for_submit {
+	margin-top:5px;
+}
+#mngCapRd_shape_for_submit button {
+	width:80px;
+	float:left;
+	margin-right:10px;
+}
+#mngCapRd_shape_for_pass {
+	margin-top:5px;
+}
+#mngCapRd_shape_for_pass button {
+	width:80px;
+	float:left;
+	margin-right:10px;
+}
+#mngCapRd_shape_for_defer {
+	margin-top:5px;
+}
+#mngCapRd_shape_for_defer button {
+	width:80px;
+	float:left;
+	margin-right:10px;
+}
+
+#mngCapRd_shape_for_show_answered{
+	width:100%;
+	/*border:1px solid red;*/
+}
+#mngCapRd_appoint_date_answered {
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+#manage_RdT2_shape_for_answer {
+	clear:both;
+	width:100%;
+	/*border:1px solid red;*/
+}
+.manage_RdT2_shape_for_submit {
+	margin-top:5px;
+}
+.manage_RdT2_shape_for_submit button {
+	margin-top:15px;
+	width:80px;
+	float:left;
+	margin-right:10px;
+}
+#manage_RdT2_shape_for_pass {
+	margin-top:5px;
+}
+#manage_RdT2_shape_for_pass button {
+	margin-top:15px;
+	width:80px;
+	float:left;
+	margin-right:10px;
+}
+#manage_RdT2_shape_for_defer {
+	margin-top:5px;
+}
+#manage_RdT2_shape_for_defer button {
+	margin-top:15px;
+	width:80px;
+	float:left;
+	margin-right:10px;
+}

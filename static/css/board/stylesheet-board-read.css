@@ -1,0 +1,301 @@
+
+#brdRd_main {
+	width:980px;
+	max-width:1280px;
+	min-width:980px;
+	margin:auto;
+	font-size:15px;
+	/*border:1px solid red;*/
+}
+#brdRd_wrapper {
+	width:730px;
+	display:inline-block;
+	/*border:1px solid blue;*/
+}
+#brdRd_SpH1-up {
+	height:175px;
+	/*border-bottom:1px solid gray;*/
+	/*border:1px solid red;*/
+}
+#brdRd_SpH1-dn {
+	
+}
+#brdRd_Dstl_RdCt {
+	display:inline-block;
+	min-height:200px;
+	padding-left:10px;
+	padding-right:10px;
+	border-left:1px solid #CACACA;
+	font-size:12px;
+}
+
+#brdRd_Dstl_RdCt img{
+	max-width: 100%;
+}
+
+#brdRd_Dstl_RdTtl {
+	height:40px;
+}
+#brdRd_SpRdTtl-lft {
+	width:620px;
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+	display:inline-block;
+	padding-left:15px;
+	border-left:1px solid #CACACA;
+
+	overflow:hidden; 
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+}
+#brdRd_SpRdTtl-rt {
+	width:110px;
+	height:40px;
+	padding-right: 10px;
+	line-height: 20px;
+	display:inline-block;
+	font-size:11px;
+	text-align: center ;
+	/*border:1px solid gray;*/
+}
+
+#brdRd_Dstl_RdInfo {
+	height:135px;
+}
+#brdRd_ShpRdInfo-rt {
+	width:550px;
+	height:135px;
+	display:inline-block;
+	border-bottom:1px solid gray;
+	border-right:1px solid #CACACA;;
+}
+#brdRd_ShpRdInfo-lft {
+	width:180px;
+	height:135px;
+	float:left;
+	display:inline-block;
+	/*border:1px solid gray;*/
+}
+#brdRd_ShpRdInfo-rt-up {
+	height:95px;
+	padding: 5px 10px 5px 10px;
+	border-bottom:1px solid #CACACA;
+	font-size: 11px;
+	/*border:3px solid green;*/
+}
+
+#brdRd_plecRdInfo-rt-dn {
+	height:40px;
+	/*border:3px solid green;*/
+}
+
+#brdRd_Dstl_RdPt {
+	height:135px;
+	display:inline-block;
+	/*border-bottom:1px solid gray;*/
+	/*border:1px solid blue;*/
+}
+#brdRd_Dstl_RdNm {
+	width:180px;
+	display:inline-block;
+	line-height:40px;
+	text-align: center;
+	float:left;
+	/*height:25px;*/
+	/*border:1px solid blue;*/
+}
+
+/*댓글 상위 div*/
+.brdRd-Dplec-Cm {
+	/*높이 자동지정 */
+	margin-bottom:15px;
+	border-left:1px solid #CACACA;
+	border-right:1px solid #CACACA;
+	border-top:1px solid black;
+	background-color: #EEEEEE;
+	/*border-bottom:1px solid black;*/
+	   /*border:1px solid red;*/
+}
+
+.brdRd-Dstl-Cm {
+	/* min-height의 기본 height가 0으로 지정되어서 지정함 */
+	min-height: 65px;
+}
+
+.brdRd-Dstl-CmPt {	
+	width:80px;
+	min-height: 60px;
+	float:left;
+	/*border:1px solid blue;*/
+}
+
+.brdRd-Dstl-CmInfo {
+	width:645px;
+	padding-left:10px;
+	display:inline-block;
+	/*border:1px solid blue;*/
+}
+.brdRd-Dstl-CmCvc{
+	width:120px;
+	display:inline-block;
+	float:right;
+	font-size:11px;
+}
+
+
+.brdRd-Dstl-CmQaa {
+	/*댓글 본문임*/
+	width:645px;	
+	display:inline-block;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	word-break : break-all;
+	white-space: pre-line;
+	/*border:1px solid blue;*/
+}
+
+/*여기서부터 답글 css*/
+.brdRd-Dstl-ACm {
+	/*margin 때문에 width를 지정할수 없음(지정할 필욘 없음)*/
+	/*높이 자동지정을 위해 따로 지정안하지만
+	  min-height의 기본 height가 0으로 지정되어서 지정함 */
+	background: url('/static/img/answer-guide.jpg');
+	background-size: 50px;
+	background-repeat: no-repeat;
+
+	min-height: 65px;
+	padding-left:50px;
+	border-bottom:1px solid black;
+}
+.brdRd-Dstl-ACmPt {	
+	width:80px;
+	min-width:80px;
+	min-height: 60px;
+	float:left;
+	display:inline-block;
+
+	/*border:1px solid blue;*/
+
+}
+.brdRd-Dstl-ACmInfo {
+	width:595px;
+	padding-left:10px;
+	display:inline-block;
+
+	/*border:1px solid blue;*/
+}
+.brdRd-Dstl-ACmQaa {
+	/*댓글 본문임*/
+	width:595px;
+	display:inline-block;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	word-break : break-all;
+	white-space: pre-line;
+	/*border:1px solid blue;*/
+}
+
+#user_id {
+	width:120px;
+	float:left;
+	display:inline-block;
+	text-align: left;
+}
+
+#brdRd_stlCm_UsrDt {
+	width:200px;
+	font-size:11px;
+	display:inline-block;
+}
+
+
+
+/*여기서부터 댓글 추가 css*/
+#brdRd_DRsv_Cm { 
+
+}
+#brdRd_Dplec_Cm {
+	margin-bottom:15px;
+	/*border:1px solid red;*/
+}
+#brdRd_Dstl_Cm{
+	border-left:1px solid #CACACA;
+	border-right:1px solid #CACACA;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	/*min-height의 기본 height가 0으로 지정되어서 지정함 */
+	min-height: 60px;
+}
+#brdRd_Dstl_CmPt {
+	width:80px;
+	min-height: 60px;
+	float:left;
+	display:inline-block;
+	/*border 지울것*/
+	/*border:1px solid blue;*/
+}
+#brdRd_Dstl_CmInfo {
+	width:645px;
+	padding-left:10px;
+	display:inline-block;
+	/*border:1px solid blue;*/
+
+}
+#brdRd_Dstl_CmQaa{
+	width:645px;
+	display:inline-block;
+	/*border:1px solid blue;*/
+}
+
+#brdRd_Bappt_CmUpload {  }
+
+#brdRd_Dplec_reloadCm-off {
+	width:150px;
+	height:30px;
+	font-size:14px;
+}
+
+#brdRd_Dplec_reloadCm-on {
+	width:150px;
+	height:30px;
+	font-size:14px;
+}
+
+
+#brdRd_Dplec_RdDlt {
+	display:block;
+	position:absolute;
+	clear:both;
+	border:1px solid gray;
+	/*바꿀경우 스크립트도 바꿔줘야됨*/
+	width:110px;
+	z-index:1;
+}
+#brdRd_Iappt_Dlt {  }
+
+#brdRd_Dplec_Rp {
+	display:block;
+	position:absolute;
+	clear:both;
+	border:1px solid gray;
+	color:blue;
+	/*바꿀경우 스크립트도 바꿔줘야됨*/
+	width:165px;
+	z-index:1;
+}
+#brdRd_Dplec_RpRs {
+	display:block;
+	position:absolute;
+	clear:both;
+	color:red;
+	text-align:right;
+	/*border:1px solid gray;*/
+	/*바꿀경우 스크립트도 바꿔줘야됨*/
+	width:165px;
+	z-index:1;
+}

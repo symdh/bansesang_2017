@@ -1,0 +1,259 @@
+#csc_CA_main {
+	width:600px;
+	padding-top:0px;
+	padding-left:10px;
+}
+#csc_CA_wrapper {
+
+}
+#csc_CA_shape_for_sub_menu_info {
+	font-size:13px;
+}
+#csc_CA_shape_for_sub_menu_info ul {
+
+}
+#csc_CA_shape_for_sub_menu_info li {
+	
+}
+#csc_CA_shape_for_sub_menu {
+
+}
+#csc_CA_shape_for_sub_menu ul {
+	width:510px;
+	list-style: none;
+	padding:0px;	
+	margin:auto;
+
+}
+#csc_CA_shape_for_sub_menu form {
+	cursor:pointer;
+}
+#csc_CA_shape_for_sub_menu ul li {
+	width:100px;
+	font-size: 14px;
+	float:left;
+	text-align:center;
+	border:1px solid gray;
+}
+#csc_CA_shape_for_sub_menu ul a{
+	text-decoration: none;
+	color:black;
+}
+#csc_CA_shape_for_sub_menu ul a:hover{
+	text-decoration: none;
+	color:red;
+}
+#csc_CA_shape_for_sub_menu ul a:linked{
+	text-decoration: none;
+	color:black;
+}
+
+
+#csc_CA_shape_for_anony_login {
+	float:left;
+
+}
+
+#csc_CA_type_span_1 {
+	display:block;
+}
+#csc_CA_type_submit_1 {
+	width:90px;
+	height:50px;
+	font-size:16px;
+	margin-left:5px;
+	color:black;
+	border-radius:10%;
+}
+#csc_CA_type_submit_2 {
+	width:300px;
+	height:50px;
+	font-size:16px;
+	margin-left:5px;
+	color:black;
+	margin-top:10px;
+}
+
+
+#csc_CA_shape_for_list {
+	width:100%;
+	clear:both;
+	margin-top:20px;
+}
+#csc_CA_shape_for_list table {
+	width:600px;
+	min-width:300px;
+	border-collapse:collapse;
+}
+#csc_CA_appoint_user_condition {
+	width:50px;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+}
+#csc_CA_appoint_user_title {
+	max-width: 450px;
+	min-width: 150px;
+	border-bottom:1px solid gray;
+	overflow:hidden; 
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+}
+#csc_CA_appoint_user_date {
+	width:100px;
+	border-left:1px solid gray;
+	border-bottom:1px solid gray;
+}
+#csc_CA_appoint_no_request {
+	margin-top:30px;
+	margin-left:50px;
+	color:red;
+}
+#csc_CA_shape_for_list td:first-child{
+	text-align: center;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+}
+.csc_CA_appoint_user_title {
+	max-width: 440px;
+	min-width: 140px;
+	padding-left:10px;
+	cursor:pointer;
+	border-bottom:1px solid gray;
+	overflow:hidden; 
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+}
+.csc_CA_appoint_user_date {
+	text-align: center;
+	border-left:1px solid gray;
+	border-bottom:1px solid gray;
+}
+.csc_CA_appoint_selected_menu {
+ 	color:#fff;
+ 	background: #38adc1;
+	background: linear-gradient(top, #38ADC1 0%, #5f6975 40%);
+	background: -moz-linear-gradient(top, #38ADC1 0%, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #38ADC1 0%,#5f6975 40%);
+}
+
+
+/*///////////////////////////////////////*/
+/********ajax를 통한 데이터 표현*************/
+#csc_CA_shape_for_user_content {
+	width:100%;
+	/*border:1px solid red;*/
+}
+#csc_CA_shape_for_answer{
+
+}
+#csc_CA_appoint_title {
+	margin-top:5px;
+	font-size:14px;
+	width:100%;
+	border-top:1px solid gray;
+	overflow:hidden; 
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+}
+#csc_CA_appoint_nickname {
+	margin-top:5px;
+	font-size:12px;
+	width:200px;
+	float:left;
+	border-right:1px solid gray;
+	/*border-bottom:1px solid gray;*/
+}
+#csc_CA_appoint_date {
+	margin-top:5px;
+	font-size:11px;
+	width:100px;
+	float:left;
+	text-align: center;
+/*	border-left:1px solid gray;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;*/
+}
+#csc_CA_appoint_content {
+	min-width:300px;
+	max-width:600px;
+	clear:both;
+	padding-top:5px;
+	border-bottom:1px solid gray;
+}
+
+#csc_CA_shape_for_answer {
+	width:100%;
+	/*border:1px solid red;*/
+}
+#csc_CA_shape_for_show_answered{
+	width:100%;
+	border-bottom:1px solid gray;
+}
+#csc_CA_appoint_date_answered {
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+
+/*///////////////////////////////////////*/
+/********faq 데이터*************/
+
+#mngFaq_main {
+	padding-left: 10px;
+	padding-top:0px;
+}
+#mngFaq_wapper {
+
+}
+
+#mngFaq_Dstl_SbLst {
+
+}
+
+#mngFaq_Dstl_MnLst {
+	padding-top:10px;
+	padding-left:30px;
+}
+
+.mngFaq-THstl-RdNum {
+	width:100px;
+	text-align: center;
+}
+
+#mngFaq_Dstl_MnLst tr {
+	border-bottom: 1px solid gray;
+}
+#mngFaq_Dstl_MnLst td {
+	padding:10px 0px 10px 0px;
+}
+
+#mngFaq_Dstl_PtcLst {
+	padding-top:10px;
+	padding-left:30px;
+}
+#mngFaq_Dstl_PtcLst tr {
+	border-bottom: 1px solid gray;
+}
+
+#mngNtc_main {
+	padding-left: 10px;
+	padding-top:0px;
+}
+#mngNtc_wapper {
+
+}
+#mngNtc_Dstl_RdTtl  {
+	width:500px;
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid gray;
+}
+
+#mngNtc_Dstl_RdCt {
+	padding-left: 20px;
+}	
+.mngNtc-THstl-RdTtl  {
+	width:400px;
+	padding: 10px 0px 10px 0px;
+}	
