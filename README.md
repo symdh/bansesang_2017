@@ -1,7 +1,7 @@
-Project Year : 2017
-Project name : 웹 커뮤니티 사이트 (개인프로젝트)
-Environment : Apache / MySQL / PHP / Linux
-Language : PHP 7 / HTML / JavaScript(Jquery) / CSS
+Project Year : 2017 <br/>
+Project name : 웹 커뮤니티 사이트 (개인프로젝트) <br/>
+Environment : Apache / MySQL / PHP / Linux <br/>
+Language : PHP 7 / HTML / JavaScript(Jquery) / CSS <br/>
 
 특징
 - Framework 적용 (Codeigniter 3)
